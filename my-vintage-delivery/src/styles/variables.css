@@ -1,0 +1,51 @@
+:root {
+  /* Vintage Color Palette */
+  --primary-color: #8B4513; /* SaddleBrown - deep, rich brown */
+  --secondary-color: #D2B48C; /* Tan - light, earthy */
+  --accent-color: #CD5C5C; /* IndianRed - muted red */
+  --background-color: #F5F5DC; /* Beige - old paper feel */
+  --text-color: #4A4A4A; /* Dark Gray - for readability */
+  --card-background: #FFF8DC; /* Cornsilk - slightly off-white */
+  --border-color: #A0522D; /* Sienna - for borders */
+
+  /* Fonts (Example - use actual font names if you add custom ones) */
+  --font-heading: 'Playfair Display', serif; /* Or your custom vintage serif */
+  --font-body: 'Lora', serif; /* Or your custom vintage sans-serif/serif */
+
+  /* Spacing & Effects */
+  --border-radius: 8px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.3s ease;
+}
+
+/* Basic Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  /* Import fonts if you add local ones, e.g., from Google Fonts */
+  /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap'); */
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}

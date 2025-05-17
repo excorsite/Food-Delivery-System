@@ -1,0 +1,27 @@
+.app-footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 25px 20px;
+  border-top: 2px solid var(--border-color);
+  margin-top: 40px; /* Ensure space from content */
+}
+
+.app-footer p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.app-footer .social-links {
+  margin-bottom: 10px;
+}
+
+.app-footer .social-links a {
+  margin: 0 10px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  display: inline-block; /* Helps with spacing */
+}
+.app-footer .social-links a:hover {
+  color: var(--accent-color);
+}

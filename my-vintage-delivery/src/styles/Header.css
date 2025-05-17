@@ -1,0 +1,56 @@
+.app-header {
+  background-color: var(--secondary-color);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--border-color);
+  box-shadow: var(--box-shadow);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 50px;
+  /* Add margin if you also have .logo-text */
+  /* margin-right: 10px; */
+}
+
+.logo-container .logo-text {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-left: 10px; /* If you use text beside logo */
+}
+
+.nav-links a {
+  margin-left: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+  transition: color var(--transition-speed);
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  cursor: pointer;
+  fill: var(--primary-color); /* For SVG fill */
+  /* stroke: var(--primary-color); For SVG stroke if needed */
+}
+.cart-icon:hover {
+  fill: var(--accent-color);
+  /* stroke: var(--accent-color); */
+}

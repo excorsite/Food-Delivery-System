@@ -1,0 +1,26 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+/* Vintage Filter Style */
+.vintage-mode {
+  filter: sepia(0.6) contrast(0.9) brightness(0.95) saturate(0.8);
+  transition: filter 0.5s ease-in-out;
+}
+
+.vintage-mode img {
+  /* Subtly desaturate images more in vintage mode */
+  filter: saturate(0.7);
+}
+/* Example for Google Fonts if not using local: Add to body in variables.css or here */
+/* Ensure you have added the font link in public/index.html or imported in variables.css */
+/* e.g. <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> */
