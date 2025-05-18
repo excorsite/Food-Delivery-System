@@ -12,7 +12,7 @@ function Header({ isVintageMode, onToggleVintage }) {
         <span className="logo-text">Vintage Bites</span>
       </div>
       <nav className="nav-links">
-        <a href="#">Home</a>
+        <a href="./components/Home.jsx">Home</a>
         <a href="#">Restaurants</a>
         <a href="#">Offers</a>
       </nav>
